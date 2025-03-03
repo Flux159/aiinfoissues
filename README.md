@@ -1,14 +1,24 @@
-## AI Info VSCode Extension Issues
+## AI Info VSCode Extension
 
-An extension for Visual Studio Code that allows you to generate a single markdown file of your entire repo and also query Gemini 2.0 flash to create tasks for other AI Agents. This repository is for Github issues only.
+![Demo Gif](https://raw.githubusercontent.com/Flux159/aiinfoissues/refs/heads/main/aiinfopanelreadme.gif)
+
+An extension for Visual Studio Code that allows you to generate a single markdown file of your entire repo and also query Gemini 2.0 flash to create tasks for other AI Agents.
+
+### Usage
+
+Update the Gemini API Key with your key from [AI Studio](https://aistudio.google.com/) in the extension settings (`Cmd+,` -> `Extensions` -> `AI Info` -> `Gemini API Key`) to use the Gemini 2.0 Flash features.
+
+```
+Cmd+Shift+P -> AI Info: Show AI Info Panel
+```
+
+### Features
 
 This extension supports 3 main features:
 
 - Ingesting a repo into a single markdown file (no need for Gemini API Key)
 - Querying Gemini 2.0 flash to list out the files involved in a task (requires Gemini API Key, returns json of files only)
 - Querying Gemini 2.0 flash to rewrite a task into a technical task with repo file context for Cursor agent to work on (requires Gemini API Key, returns markdown of task to copy/paste into Cursor or other Agentic AI coding tool)
-
-![Demo Gif](./aiinfopanelreadme.gif)
 
 ### Why?
 
